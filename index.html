@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--BOX ICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Side Bar</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <!--HEADER-NAV-->
+        <header>
+            <div class="image">
+                <span>
+                    <img src="./img/logo.svg" alt="logo">
+                </span>
+            </div>
+            <div id="avi" class="text-bar">
+                <h1>P Lab</h1>
+                <h2>designer</h2>
+            </div>
+            <button id="abrir" class="ampliar">
+                <img src="./img/ampliar.png" alt="">
+            </button>
+        </header>
+        <!--MENU NAV-->
+        <div class="menu">
+            <!--BUSCAR-->
+            <div class="menu-item ">
+                <img class="srch" src="./img/search.png" alt="">
+                <input id="avi" type="search" name="search" placeholder="Buscar...">
+            </div>
+            <!--HOME-->
+            <button class="menu-item hov">
+                <img src="./img/home.png" alt="">
+                <h3 class="visible" id="avi">Inicio</h3>
+            </button>
+            <!--NOTI-->
+            <button class="menu-item hov">
+                <img class="noti" src="./img/noti.png" alt="noti">
+                <h3 id="avi">notificaciones</h3>
+            </button>
+            <!--FRIEND-->
+            <button class="menu-item hov">
+                <img src="./img/amigos.png" alt="amigos">
+                <h3 id="avi">Amigos</h3>
+            </button>
+            <!--SETTINGS-->
+            <button class="menu-item hov">
+                <img src="./img/settings.png" alt="">
+                <h3 id="avi">settings</h3>
+            </button>
+            <!--EXIT-->
+            <button class="menu-item hov">
+                <img class="exit" src="./img/salida.png" alt="salida">
+                <h3 id="avi">Salida</h3>
+            </button>
+            <!--TOGGLE-->
+            <div class="toggle">
+
+            </div>
+        </div>
+    </nav>
+    <script src="app.js"></script>
+</body>
+</html>
